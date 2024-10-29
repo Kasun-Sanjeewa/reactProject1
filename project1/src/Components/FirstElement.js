@@ -1,10 +1,12 @@
-import Second from "./Second";
+import './FirstElement.css'
 
 function FirstElement() {
     return (
-        <div>
-            <h1>This is First Page</h1>
-            <Second />
+        <div className="Nav">
+            <h4>Home</h4>
+            <h4>About</h4>
+            <h4>Service</h4>
+            <h4>Contact</h4>
         </div>
     )
 }
