@@ -1,10 +1,9 @@
-import Third from "./Third";
 
-function Second() {
+function Second(props) {
+
     return (
         <div>
-            <h2>This is second page</h2>
-            <Third />
+            <h1>{props.children}</h1>
         </div>
     )
 }
